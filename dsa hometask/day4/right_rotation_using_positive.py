@@ -6,8 +6,9 @@ k = int(input())
 
 n = len(arr)
 
-k = k % n
+if n > 0:
+	k = k % n
 
-arr = arr[n-k:] + arr[:n-k]
+	arr = arr[n - k:] + arr[:n - k]
 
 print(arr)

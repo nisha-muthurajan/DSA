@@ -11,10 +11,10 @@ total=0
 n=len(mat)
 for i in range(len(mat)):
     total+=mat[i][i]
-    i+=1
+    
 for i in range(len(mat)):
     total+=mat[i][n-i-1]
-    i+=1
+
 if n%2!=0:
     center_index=n//2
     total-=mat[center_index][center_index]

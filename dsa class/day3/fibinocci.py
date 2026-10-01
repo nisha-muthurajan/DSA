@@ -11,3 +11,7 @@ try:
         print(fibonacci_recursive(i),end=" ")
 except ValueError:
     print("Invalid Error")
+
+
+#Time=O(N!)
+Space=O(1)
